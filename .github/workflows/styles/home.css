@@ -1,0 +1,54 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6; /* Improved readability */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0; /* Prevents any margin */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px; /* Added padding for clickable space */
+}
+
+nav a:hover {
+    color: #f4f4f4;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
